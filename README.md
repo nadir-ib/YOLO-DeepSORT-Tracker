@@ -24,8 +24,8 @@ This project is designed to detect and track humans in video using YOLO for obje
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/yolo_detection_project.git
-cd yolo_detection_project
+git clone https://github.com/nadir-ib/YOLO-DeepSORT-Tracker.git
+cd YOLO-DeepSORT-Tracker
 ```
 
 ### Requirements
