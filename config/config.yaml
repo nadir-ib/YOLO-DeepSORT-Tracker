@@ -1,0 +1,29 @@
+input:
+  video_path: "../h1.mp4"
+
+output:
+  video_dir: "../static/videos"
+  db_path: "../db/detections.db"
+
+yolo:
+  model_path: "yolov8s.pt"
+  confidence_threshold: 0.5
+
+deep_sort:
+  max_age: 5
+  n_init: 3
+
+processing:
+  frame_skip: 2
+
+alert:
+  night_hour_start: "22:00"  # 10:00 PM
+  night_hour_end: "11:00"    # 10:00 AM
+
+email:
+  sender: "nadiribrahimpur@gmail.com"
+  password: "xoip nrfe fdvb cvsn"
+  recipients:
+    - "naderebrahimpour@gmail.com"
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
