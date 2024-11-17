@@ -22,7 +22,7 @@ alert:
 
 email:
   sender: "nadiribrahimpur@gmail.com"
-  password: "xoip nrfe fdvb cvsn"
+  password: ""
   recipients:
     - "naderebrahimpour@gmail.com"
   smtp_server: "smtp.gmail.com"
